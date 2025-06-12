@@ -5,7 +5,7 @@ const {
   Account,
   createAccount,
   getStatus,
-} = require('./utils');
+} = require('./test');
 
 async function main() {
   const user = await fetchUser(1);
