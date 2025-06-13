@@ -30,3 +30,14 @@ async function main() {
 }
 
 main().catch(console.error);
+
+// --- Export individual items if needed ---
+module.exports = {
+  main,
+  greetUser,
+  calculateArea,
+  fetchUser,
+  Account,
+  createAccount,
+  getStatus,
+};
